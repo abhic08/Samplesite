@@ -142,13 +142,7 @@ body {
     font-size: 1rem;
 }
 
-.carousel-control-next {
-    right: -156px;
-}
 
-.carousel-control-prev {
-    left: -156px;
-}
 
 .projectbg {
     height: 100vh;
@@ -210,6 +204,7 @@ body {
     font-size: 1.125rem;
     width:223px;
     height:48px;
+    color:#ffffff;
 }
 .feedback-form .form-control {
     width: 100%;
@@ -225,6 +220,16 @@ body {
 @media only screen and (min-width: 320px) and (max-width: 500px) {
     .change-direction {
         flex-direction: column;
+    }
+
+    .feedback-form {
+        padding:0;
+    }
+
+    .attachments  {
+        margin: 0 auto;
+    display: block;
+    color:#ffffff;
     }
 }
 
